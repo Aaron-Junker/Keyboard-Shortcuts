@@ -1,0 +1,4 @@
+PackageName: +WindowsNT.TaskManager
+Shortcuts:
+  - SectionName: ""
+    Properties:

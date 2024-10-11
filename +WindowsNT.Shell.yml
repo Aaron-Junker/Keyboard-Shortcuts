@@ -1,0 +1,70 @@
+PackageName: *WindowsNT.Shell
+Shortcuts:
+  - SectionName: Copilot
+    Properties:
+      - Name: Open Copilot
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Description: When copilot is available
+        Keys:
+          - '<Copilot>'
+      - Name: Open Windows search
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Description: When copilot is not available
+        Keys:
+          - '<Copilot>'
+  - SectionName: Desktop Shortcuts
+    Properties:
+      - Name: Cycle through open Windows
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - Esc
+      - Name: Close active window
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - F4
+      - Name: Open shutdown box
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Description: When no windows are open
+        Keys:
+          - F4
+      - Name: Reveal typed password in Sign-in screen
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - F8
+  - SectionName: <TASKBAR1-9>Taskbar Shortcuts
+    Properties:
+      - Name: Open app in Taskbar
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<TASKBAR1-9>"
+  - SectionName: Office key
+    Properties:
+      - Name: Open word
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>+W"
+  
