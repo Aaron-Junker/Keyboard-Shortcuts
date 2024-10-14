@@ -1,10 +1,10 @@
 DefaultShellName: "+WindowsNT.Shell"
-index:
-  - filter: "*"
-    apps: ["+WindowsNT.Shell", "Microsoft.PowerToys"]
-  - filter: "explorer.exe"
-    apps: ["+WindowsNT.WindowsExplorer"]
-  - filter: "taskmgr.exe"
-    apps: ["+WindowsNT.TaskManager"]
-  - filter: "msedge.exe"
-    apps: ["+WindowsNT.Edge"]
+Index:
+  - Filter: "*"
+    Apps: ["+WindowsNT.Shell", "Microsoft.PowerToys"]
+  - Filter: "explorer.exe"
+    Apps: ["+WindowsNT.WindowsExplorer"]
+  - Filter: "taskmgr.exe"
+    Apps: ["+WindowsNT.TaskManager"]
+  - Filter: "msedge.exe"
+    Apps: ["+WindowsNT.Edge"]

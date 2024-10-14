@@ -1,4 +1,4 @@
-PackageName: *WindowsNT.Shell
+PackageName: +WindowsNT.Shell
 Shortcuts:
   - SectionName: Copilot
     Properties:
@@ -42,7 +42,8 @@ Shortcuts:
         Description: When no windows are open
         Keys:
           - F4
-      - Name: Reveal typed password in Sign-in screen
+      - Name: Reveal typed password
+        Description: On sign-in screen
         Win: false
         Ctrl: false
         Shift: false
@@ -66,5 +67,6 @@ Shortcuts:
         Shift: false
         Alt: false
         Keys:
-          - "<Office>+W"
+          - "<Office>"
+          - "W"
   
