@@ -1,23 +1,5 @@
 PackageName: +WindowsNT.Shell
 Shortcuts:
-  - SectionName: Copilot
-    Properties:
-      - Name: Open Copilot
-        Win: false
-        Ctrl: false
-        Shift: false
-        Alt: false
-        Description: When copilot is available
-        Keys:
-          - '<Copilot>'
-      - Name: Open Windows search
-        Win: false
-        Ctrl: false
-        Shift: false
-        Alt: false
-        Description: When copilot is not available
-        Keys:
-          - '<Copilot>'
   - SectionName: Desktop Shortcuts
     Properties:
       - Name: Cycle through open Windows
@@ -50,6 +32,232 @@ Shortcuts:
         Alt: true
         Keys:
           - F8
+      - Name: Go back
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "<Left>"
+      - Name: Go forward
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "<Right>"
+      - Name: Move up one screen
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "<Page Up>"
+      - Name: Move down one screen
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "<Page Down>"
+      - Name: Window context menu
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - Space
+      - Name: Switch between open apps 
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Description: While pressing Tab multiple times
+        Keys:
+          - Tab
+      - Name: Run command
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Description: for the underlined letter in the app
+        Keys:
+          - "<Underlined letter>"
+      - Name: View open apps
+        Win: false
+        Ctrl: true
+        Shift: false
+        Alt: true
+        Keys:
+          - Tab
+      - Name: Change start menu size
+        Win: false
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Arrow>"
+      - Name: Move cursor
+        Win: false
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Description: To the beginning or end of a word
+        Keys:
+          - "<ArrowLR>"
+      - Name: Switch keyboard layout
+        Win: false
+        Ctrl: true
+        Shift: true
+        Alt: false
+        Keys:
+          - ""
+      - Name: Select block of text
+        Win: false
+        Ctrl: true
+        Shift: true
+        Alt: false
+        Keys:
+          - "<Arrow>"
+      - Name: Open Task Manager
+        Win: false
+        Ctrl: true
+        Shift: true
+        Alt: false
+        Keys:
+          - Esc
+      - Name: Enable/Disable Chinese IME
+        Win: false
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - Space
+      - Name: Open context menu
+        Win: false
+        Ctrl: false
+        Shift: true
+        Alt: false
+        Description: For the selected item
+        Keys:
+          - F10
+  - SectionName: Virtual desktop
+    Properties:
+      - Name: Open task view
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - Tab
+      - Name: Add a virtual desktop
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - D
+      - Name: Close current desktop
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Recommended: true
+        Keys:
+          - F4
+      - Name: Switch desktop
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "<ArrowLR>"
+  - SectionName: "Windows key"
+    Properties:
+      - Name: Open start menu
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Recommended: true
+        Keys:
+          - ""
+      - Name: Open Action Center
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "A"
+      - Name: Open Date and Time
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "D"
+      - Name: Focus on the notification area
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "B"
+      - Name: Open narrator
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "Enter"
+      - Name: Open domain search
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "F"
+      - Name: Open Quick Assist
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "Q"
+      - Name: Wake up device
+        Win: true
+        Ctrl: true
+        Shift: true
+        Alt: false
+        Description: When black or a blank screen.
+        Keys:
+          - "B"
+      - Name: Change input option
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Description: To next option
+        Keys:
+          - "Space"
+      - Name: Change input option
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Description: To previous option
+        Keys:
+          - "Space"
+      - Name: Display/Hide desktop
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "D"
+  - SectionName: File Explorer
+  - SectionName: Text editing
+  - SectionName: Clipboard 
   - SectionName: <TASKBAR1-9>Taskbar Shortcuts
     Properties:
       - Name: Open app in Taskbar
@@ -59,9 +267,48 @@ Shortcuts:
         Alt: false
         Keys:
           - "<TASKBAR1-9>"
+      - Name: Open jump list
+        Win: true
+        Ctrl: false
+        Shift: false
+        Alt: true
+        Keys:
+          - "<TASKBAR1-9>"
+      - Name: Switch to last active window
+        Win: true
+        Ctrl: true
+        Shift: false
+        Alt: false
+        Keys:
+          - "<TASKBAR1-9>"
+      - Name: Open as administrator
+        Win: true
+        Ctrl: true
+        Shift: true
+        Alt: false
+        Keys:
+          - "<TASKBAR1-9>"
+  - SectionName: Copilot key
+    Properties:
+      - Name: Open Copilot
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Description: When copilot is available
+        Keys:
+          - '<Copilot>'
+      - Name: Open Windows search
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Description: When copilot is not available
+        Keys:
+          - '<Copilot>'
   - SectionName: Office key
     Properties:
-      - Name: Open word
+      - Name: Open Word
         Win: false
         Ctrl: false
         Shift: false
@@ -69,4 +316,68 @@ Shortcuts:
         Keys:
           - "<Office>"
           - "W"
+      - Name: Open Excel
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "X"
+      - Name: Open PowerPoint
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "P"
+      - Name: Open Outlook
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "O"
+      - Name: Open Microsoft Teams
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "T"
+      - Name: Open OneNote
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "N"
+      - Name: Open OneDrive
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "D"
+      - Name: Open Yammer
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "Y"
+      - Name: Open LinkedIn
+        Win: false
+        Ctrl: false
+        Shift: false
+        Alt: false
+        Keys:
+          - "<Office>"
+          - "L"
   
