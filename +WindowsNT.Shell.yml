@@ -1,4 +1,5 @@
 PackageName: +WindowsNT.Shell
+WindowFilter: "*"
 Shortcuts:
   - SectionName: Desktop Shortcuts
     Properties:
